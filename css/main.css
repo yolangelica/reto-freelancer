@@ -2,9 +2,9 @@ body {
 	margin: 0 auto;
 }
 
-/*Barra azul  header*/
+/*_______BARRA AZUL HEADER_______*/
 
-header h2{/*titulo start bootstrap barra azul*/
+header h2{ /*titulo start bootstrap barra azul*/
 	margin-left:120px;
 	text-transform: uppercase;/*texto a mayuscula*/
 	font-size: 29px;
@@ -21,12 +21,12 @@ header{
 	color:#FFFFFF;/*color texto*/
 	font-family: 'Montserrat', sans-serif;/*tipografia*/
 	position: fixed;/*fija barra en navegador*/
-	z-index: 2;/*posiciono por delante*/
+	z-index: 2;/*posiciona por delante*/
 	padding: 12px;
 }
 
 
-/*MODIFICA 3 LINK BORDE SUPERIOR DERECHO*/
+/*_____3 LINK borde superior(portfolio about contact)_________*/
 
 
 ul{ 
@@ -65,7 +65,7 @@ nav li a:hover{
 
 
 
-/*PRIMERA SECCION imagen perfil*/
+/*_____SECCION 1 imagen perfil( start bootstrap)___*/
 
 
 .cuadro1{
@@ -98,11 +98,6 @@ nav li a:hover{
 }
 
 
-/*Lineas estrellas blancas*/
-
-.fa-star{
-	
-}
 
 /*ESTRELLA BLANCA*/
 .estrella1{
@@ -113,7 +108,7 @@ nav li a:hover{
 
 }
 
-.estrella1:before{
+.estrella1:before{/*linea estrella izquierda*/
 	display: inline-block;
 	margin:0 2px 8px 20px;
 	height: 5px;
@@ -124,7 +119,7 @@ nav li a:hover{
 
 }
 
-.estrella1:after{
+.estrella1:after{/*linea estrella derecha*/
 	display: inline-block;
 	margin:0 20px 8px 2px;
 	height: 5px;
@@ -135,7 +130,7 @@ nav li a:hover{
 
 }
 
-/*estrella oscura*/
+/*ESTRELLA OSCURA*/
 
 .estrella2{
 	color:#2C3E50;
@@ -168,7 +163,7 @@ nav li a:hover{
 
 
 
-/*PORTAFOLIO*/
+/*____________PORTAFOLIO_________________________*/
 
 .PORTAFOLIO h4{
 	text-align: center;
@@ -194,7 +189,7 @@ nav li a:hover{
 }
 
 
-/*ABOUT*/
+/*_____________ABOUT___________________*/
 .caja-about{
 	background: #18BC9C;
 	color:#FFFFFF;
@@ -252,7 +247,7 @@ nav li a:hover{
 }
 
 
-/*SECTION CONTACTME*/
+/*______________SECTION CONTACTME______________*/
 .contact h2 {
 	font-size:48px;
 	font-family: 'Montserrat', sans-serif;
@@ -279,7 +274,7 @@ input{
 	margin-left: 266px;
 }
 
-/*_________BOTON SEND*/
+/*BOTON SEND*/
 
 .send{
 	background-color:#18bc9c;
